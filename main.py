@@ -10,7 +10,6 @@ def handle(msg):
     print("Got command",command)
     if command=='/help':
         bot.sendMessage(chat_id,"Type /list to list all tasks")
-    if command.
     elif command=='/list':
         bot.sendMessage(chat_id,"Listing all items")
     elif command=='/about':
